@@ -8,6 +8,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" 
+        rel="stylesheet">
         <style>
             body {
             }
@@ -131,12 +133,17 @@
             }
             .h {
                 position: absolute;
-                top: 700px;
+                top: 800px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
             }
             .i {
                 height: 150px;
                 width: 150px;
-                border: 1px solid black;
+                position: relative;
+                top: 20px;
+                border: 3px solid black;
                 border-radius: 50%;
             }
             .j {
@@ -145,12 +152,52 @@
                 top: 500px;
                 height: 200px;
                 width: 100vw;
-                border: 2px solid red;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 font-family: 'Lobster', cursive;
                 font-size: 90px;
+                background-position: -90px -200px;
+            }
+            .common {
+                height: 600px;
+                width: 450px;
+                position: relative;
+                margin-left: 40px;
+                padding-left: 50px;
+                padding-right: 50px;
+                background: #fdf2e6;
+                border: 5px solid orange;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                box-shadow: 8px -8px 8px #d5cfc3;
+            }
+             
+           .common2 {
+                position: relative; 
+                top: 50px;
+                font-family: 'Playfair Display', serif;         
+                font-weight: bold;
+                font-size: 40px;
+                text-decoration: underline;
+                color: #e44c0f;
+            }
+            .common3 {
+                position: relative;
+                top: 80px;
+                font-size: 17px;
+                color: red;
+            }
+            #first {
+
+            }
+            #second {
+
+            }
+            #third {
+
             }
         </style>
     </head>
@@ -165,7 +212,8 @@
             <li> About </li>
             <li> Contact Us </li>
         </ul>
-        <img src = 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' class='a'>
+        <img src = 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8
+        MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' class='a'>
         <div class = 'aa' id = 'e'> Welcome to food items 
         </div>
         <div class = 'aa' id = 'f'> Welcome to Deba food centre webpage. Get access to the best quality food 
@@ -180,15 +228,51 @@
             Food Services  
         </div>
         <div class = 'h'> 
+            <div id = 'first' class = 'common'>
             <img src = 'https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?ixlib=rb-1.2.1&ixid=MnwxMjA
             3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80' alt = 'image not found'  
             class = 'i'>
+            <div id = 'one' class = 'common2'> PIZZAS </div>
+            <div id = 'onemore' class = 'common3'>
+            No matter what the situation, pizza always helps. Especially a pizza that gives you the freedom to 
+            choose your toppings - from paneer, crisp capsicum, onion, grilled mushroom, golden corn, black 
+            olives, fresh tomato, red paprika, jalapeno, paneer tikka and extra cheese to non-veg toppings such 
+            as pepper barbeque chicken, peri-peri chicken, grilled chicken rasher, chicken sausage or chicken 
+            tikka- the options are almost endless, anything and everything you can think of that too on top of 
+            the crust of your choice - New hand-tossed crust, wheat thin crust, cheese burst crust, classic 
+            hand-tossed crust or a fresh pan pizza. Because just like a pizza, we understands you.
+            </div>
+            </div>
+            <div id = 'second' class = 'common'>
             <img src = 'https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?ixlib=rb-1.2.1&ixid=MnwxMjA
             3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80' alt = 'image not found'
             class = 'i'>
+            <div id = 'two' class = 'common2'> PIZZAS </div>
+            <div id = 'twomore' class = 'common3'>
+            No matter what the situation, pizza always helps. Especially a pizza that gives you the freedom to 
+            choose your toppings - from paneer, crisp capsicum, onion, grilled mushroom, golden corn, black 
+            olives, fresh tomato, red paprika, jalapeno, paneer tikka and extra cheese to non-veg toppings such 
+            as pepper barbeque chicken, peri-peri chicken, grilled chicken rasher, chicken sausage or chicken 
+            tikka- the options are almost endless, anything and everything you can think of that too on top of 
+            the crust of your choice - New hand-tossed crust, wheat thin crust, cheese burst crust, classic 
+            hand-tossed crust or a fresh pan pizza. Because just like a pizza, we understands you.
+            </div>
+            </div>
+            <div id = 'third' class = 'common'>
             <img src = 'https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?ixlib=rb-1.2.1&ixid=MnwxMjA
             3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80' alt = 'image not found' 
             class = 'i'>
+            <div id = 'three' class = 'common2'> PIZZAS </div>
+            <div id = 'threemore' class = 'common3'>
+            No matter what the situation, pizza always helps. Especially a pizza that gives you the freedom to 
+            choose your toppings - from paneer, crisp capsicum, onion, grilled mushroom, golden corn, black 
+            olives, fresh tomato, red paprika, jalapeno, paneer tikka and extra cheese to non-veg toppings such 
+            as pepper barbeque chicken, peri-peri chicken, grilled chicken rasher, chicken sausage or chicken 
+            tikka- the options are almost endless, anything and everything you can think of that too on top of 
+            the crust of your choice - New hand-tossed crust, wheat thin crust, cheese burst crust, classic 
+            hand-tossed crust or a fresh pan pizza. Because just like a pizza, we understands you.
+            </div>
+            </div>
         </div>
     </body>
 
