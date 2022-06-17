@@ -4,15 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>My Website</title>
+        <title>DFC</title>
         <link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" 
         rel="stylesheet">
         <style>
-            body {
-            }
             * {
                 margin: 0px;
                 padding: 0px;
@@ -80,10 +78,12 @@
                 background-color: black;
                 opacity: 0.4;
                 position: fixed;
+                top: 0px;
                 z-index: 1;
             }
             .aa {
                 font-family: 'Tai Heritage Pro', serif;
+                justify-content: center;
                 color: white;
             }
             #e {
@@ -191,13 +191,56 @@
                 color: red;
             }
             #first {
-
+                animation-name: one;
+                animation-duration: 2s;
+                animation-iteration-count: 1;
+                animation-timing-duration: ease-in;
+            }
+            @keyframes one {
+                from {
+                    position: relative;
+                    margin-left: 0px;
+                    left: -40px;
+                }
+                to {
+                    position: relative;
+                    left: 0px;
+                }
             }
             #second {
+                animation-name: two;
+                animation-duration: 2s;
+                animation-iteration-count: 1;
+                animation-timing-duration: ease-in;
+            }
 
+            @keyframes two {
+                from {
+                    position: relative;
+                    margin-left: 0px;
+                    left: -490px;
+                }
+                to {
+                    position: relative;
+                    left: 0px;
+                }
             }
             #third {
-
+                animation-name: three;
+                animation-duration: 2s;
+                animation-iteration-count: 1;
+                animation-timing-duration: ease-in;
+            }
+            @keyframes three {
+                from {
+                    position: relative;
+                    margin-left: 0px;
+                    left: -1020px;
+                }
+                to {
+                    position: relative;
+                    left: 0px;
+                }
             }
         </style>
     </head>
