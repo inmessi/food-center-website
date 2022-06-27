@@ -16,6 +16,12 @@
                 padding: 0px;
                 box-sizing: border-box;
             }
+
+            body {
+                display: flex;
+                flex-wrap: wrap;
+                overflow-x: hidden;
+            }
             .a {
                 position: absolute;
                 top: 0px;
@@ -75,6 +81,7 @@
             .d {
                 height: 60px;
                 width: 100vw;
+                overflow: hidden;
                 background-color: black;
                 opacity: 0.4;
                 position: fixed;
@@ -133,9 +140,9 @@
             .h {
                 position: absolute;
                 top: 800px;
+                width: 100vw;
                 display: flex;
                 flex-direction: row;
-                justify-content: space-between;
             }
             .i {
                 height: 150px;
@@ -146,7 +153,7 @@
                 border-radius: 50%;
             }
             .j {
-                background: url('a.jpg');
+                background: url('photos/a.jpg');
                 position: absolute;
                 top: 500px;
                 height: 200px;
@@ -241,6 +248,21 @@
                     left: 0px;
                 }
             }
+            #z {
+                height: 200px;
+                width: 100vw;
+                border-top: 4px solid orange;
+                text-decoration: underline; 
+                position: relative;
+                top: 1500px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #fcf4e5;
+                font-family: 'monaco';
+                font-size: 30px;
+                color: #ff0000;
+            }
         </style>
     </head>
     
@@ -254,7 +276,7 @@
             <li> About </li>
             <li> Contact Us </li>
         </ul>
-        <img src = 'b.jpg' class='a'>
+        <img src = 'photos/b.jpg' class='a'>
         <div class = 'aa' id = 'e'> Welcome to food items 
         </div>
         <div class = 'aa' id = 'f'> Welcome to Deba food centre webpage. Get access to the best quality food 
@@ -281,7 +303,7 @@
             as pepper barbeque chicken, peri-peri chicken, grilled chicken rasher, chicken sausage or chicken 
             tikka- the options are almost endless, anything and everything you can think of that too on top of 
             the crust of your choice - New hand-tossed crust, wheat thin crust, cheese burst crust, classic 
-            hand-tossed crust or a fresh pan pizza. Because just like a pizza, we understands you.
+            hand-tossed crust or a fresh pan pizza. Because just like a pizza, we understand you.
             </div>
             </div>
             <div id = 'second' class = 'common'>
@@ -296,14 +318,14 @@
             as pepper barbeque chicken, peri-peri chicken, grilled chicken rasher, chicken sausage or chicken 
             tikka- the options are almost endless, anything and everything you can think of that too on top of 
             the crust of your choice - New hand-tossed crust, wheat thin crust, cheese burst crust, classic 
-            hand-tossed crust or a fresh pan pizza. Because just like a pizza, we understands you.
+            hand-tossed crust or a fresh pan pizza. Because just like a pizza, we understand you.
             </div>
             </div>
             <div id = 'third' class = 'common'>
             <img src = 'https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?ixlib=rb-1.2.1&ixid=MnwxMjA
             3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80' alt = 'image not found' 
             class = 'i'>
-            <div id = 'three' class = 'common2'> PIZZAS </div>
+            <div id = 'three' class = 'common2'>PIZZAS </div>
             <div id = 'threemore' class = 'common3'>
             No matter what the situation, pizza always helps. Especially a pizza that gives you the freedom to 
             choose your toppings - from paneer, crisp capsicum, onion, grilled mushroom, golden corn, black 
@@ -311,10 +333,11 @@
             as pepper barbeque chicken, peri-peri chicken, grilled chicken rasher, chicken sausage or chicken 
             tikka- the options are almost endless, anything and everything you can think of that too on top of 
             the crust of your choice - New hand-tossed crust, wheat thin crust, cheese burst crust, classic 
-            hand-tossed crust or a fresh pan pizza. Because just like a pizza, we understands you.
+            hand-tossed crust or a fresh pan pizza. Because just like a pizza, we understand you.
             </div>
             </div>
         </div>
+        <div id = 'z'> Thanks for being a part of the magic! </div>
     </body>
 
 </html>
