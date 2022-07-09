@@ -1,4 +1,4 @@
-# Simple website on a random food center and deploying to heroku 
+## Simple website on a random food center and deploying to heroku 
 
 **Tools used**
 - Nodejs (Express, ejs, path)
