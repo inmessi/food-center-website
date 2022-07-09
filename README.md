@@ -1,10 +1,10 @@
 ## Simple website on a random food center and deploying to heroku 
 
 **Tools used**
-- Nodejs (Express, ejs, path)
-- HTML
-- CSS
-- Javascript
+- [Nodejs](https://nodejs.org/en/) ([Express](https://expressjs.com/), [ejs](https://ejs.co/), [path](https://nodejs.org/api/path.html))
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 #
 
