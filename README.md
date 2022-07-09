@@ -5,9 +5,7 @@
 - HTML
 - CSS
 - Javascript
-
 ---
-
 This app will run on [http://localhost:80](http://localhost:80) <br/>
 Also you can host your nodejs app on heroku </br>
 Link to heroku: [https://dashboard.heroku.com/apps](https://dashboard.heroku.com/apps) <br/>
