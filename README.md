@@ -9,21 +9,21 @@
 #
 
 In order to run this nodejs app the following steps should be carried out:
-```
+```sh
 $ git clone https://github.com/inmessi/food-center-website.git
 $ cd food-center-website
 $ npm install 
 ```
 ### Running locally
 You can run this app on [http://localhost:80](http://localhost:80) by running the command <br/>
-```
+```sh
 $ npm start 
 ```
 ### Deploying to heroku 
 - Link to heroku: [https://dashboard.heroku.com/apps](https://dashboard.heroku.com/apps) 
-- Create a Procfile and write 'web: node index.js' inside 
+- Create a Procfile and write **web: node index.js** inside 
 - Open the above mentioned link and then go to terminal to type the following:
-```
+```sh
 $ heroku create
 $ git push heroku master 
 $ heroku open
