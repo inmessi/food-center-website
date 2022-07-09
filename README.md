@@ -29,4 +29,3 @@ $ git push heroku master
 $ heroku open
 ```
 
-<button onclick = "window.location.href='https://dashboard.heroku.com/apps/debasmit/deploy/heroku-git';"> Deploy to heroku </button>
