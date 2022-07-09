@@ -14,6 +14,7 @@ Link to heroku: [https://dashboard.heroku.com/apps](https://dashboard.heroku.com
 
 Open the above mentioned link and then go to terminal to type the following: <br/>
 ```
-heroku create
-git push heroku master 
+$ heroku create
+$ git push heroku master 
+$ heroku open
 ```
