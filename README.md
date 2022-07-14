@@ -24,6 +24,9 @@ $ npm start
 - Create a Procfile and write **web: node index.js** inside. 
 - Open the above mentioned link and then go to terminal to type the following:
 ```sh
+$ git init 
+$ heroku git:remote -a dfcfoodcenter
+$ git add . && git commit -m 'done'
 $ heroku create
 $ git push heroku master 
 $ heroku open
