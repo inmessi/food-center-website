@@ -16,7 +16,8 @@ app.get('/', (req, res) => {
         roll: "69",
         class: "X"
     };
-    res.render('index', data);
+    res.statusCode(200).render('index', data);
+
 });
 
 app.listen(port, ()=> {
