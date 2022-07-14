@@ -8,7 +8,7 @@
 
 #
 
-In order to run this nodejs app the following steps should be carried out:
+In order to run this nodejs app we need to install all the packages/dependencies used:
 ```sh
 $ git clone https://github.com/inmessi/food-center-website.git
 $ cd food-center-website
