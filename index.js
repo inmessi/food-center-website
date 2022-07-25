@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
         roll: "69",
         class: "X"
     };
-    res.statusCode(200).render('index', data);
+    res.status(200).render('index', data);
 
 });
 
